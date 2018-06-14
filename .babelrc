@@ -5,7 +5,6 @@
     ],
     "plugins": [
         "transform-class-properties",
-        "transform-object-rest-spread",
-        ["transform-replace-object-assign", { "moduleSpecifier": "lodash.assign" }]
+        "transform-object-rest-spread"
     ]
 }
