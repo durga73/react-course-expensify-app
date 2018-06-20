@@ -14,7 +14,9 @@ import * as firebase from 'firebase';
 
   const database = firebase.database();
 
-  export  { firebase, database as default }
+  const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+
+  export  { firebase, googleAuthProvider, database as default }
 //   database.ref('expenses')
 //   .once('value')
 //   .then((snapshot)=> {
